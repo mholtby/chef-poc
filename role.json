@@ -1,0 +1,7 @@
+{
+  "name": "hello-world-role",
+  "description": "A role which configures instances as Hello World Server.",
+  "run_list": [
+	"recipe[hello-world]"
+  ]
+}
